@@ -15,7 +15,7 @@ figure {
 
 .c-content {
     padding: 10px;
-    color: #30353D;
+    color: #808080;
     padding: 45px;
     max-width: 650px;
     margin: 0 auto;
@@ -24,18 +24,21 @@ figure {
 .c-content p {
     font-size: 1.1rem;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
 }
 
 .c-content h1 {
     font-size: 2rem;
+    color: #30353D;
 }
 
 .c-content h2 {
     font-size: 1.6rem;
+    color: #30353D;
 }
 
-.l-content {
-
+.c-footer {
+    font-family: 'Roboto Slab', serif;
 }
 
 .c-magnificent-figure-box {
@@ -43,8 +46,6 @@ figure {
     flex-direction: row;
     margin-top: 10px;
     justify-content: space-around;
-    /*height: 380px;*/
-    /*width: 270px;*/
 }
 
 .c-figure {
@@ -85,11 +86,16 @@ figure {
 }
 
 .c-footer {
-    padding: 10px;
-    border-top: 1px dashed #272727;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 
-.c-footer--text {
+.c-end-text {
     font-size: 1.2rem;
     text-align: center;
+    color: #808080;
+}
+
+.c-deception-box {
+    margin-top: 400px;
 }
