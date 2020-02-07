@@ -72,6 +72,8 @@ figure {
 .c-img-coconut-nut {
     height: 600px;
 }
+
+
 .c-img-detestable-bird {
     width: 600px;
 }
@@ -98,4 +100,30 @@ figure {
 
 .c-deception-box {
     margin-top: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+    .c-site-wrapper {
+        padding: 5px;
+    }
+
+    .c-img-coconut-nut {
+        max-height:430px;
+    }
+
+    .c-img-detestable-bird {
+        width: 100%;
+        min-width: 270px;
+    }
+
+    .c-img-tasty-bird {
+        width: 100%;
+        min-width: 270px;
+    }
+
+    .c-magnificent-figure-box {
+        flex-direction: column;
+        align-items: center;
+        min-height: 950px;
+    }
 }
