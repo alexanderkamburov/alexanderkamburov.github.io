@@ -9,9 +9,15 @@
 .c-figure-box {
     display: flex;
     flex-direction: row;
+    height: 380px;
+    width: 270px;
 }
 
-.c-birdy-box {
+img {
+    width: 380px;
+}
+
+.c-birdy-portrait {
     height: 380px;
     width: 270px;
 }
