@@ -83,3 +83,13 @@ figure {
     height: 380px;
     width: 270px;
 }
+
+.c-footer {
+    padding: 10px;
+    border-top: 1px dashed #272727;
+}
+
+.c-footer--text {
+    font-size: 1.2rem;
+    text-align: center;
+}
