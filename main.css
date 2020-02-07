@@ -1,0 +1,17 @@
+.c-content {
+
+}
+
+.l-content {
+
+}
+
+.c-figure-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-birdy-box {
+    height: 380px;
+    width: 270px;
+}
