@@ -1,23 +1,85 @@
-.c-content {
+html, body {
+    padding:0;
+    margin:0;
+}
 
+figure {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.c-site-wrapper {
+    padding: 25px;
+}
+
+.c-content {
+    padding: 10px;
+    color: #30353D;
+    padding: 45px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.c-content p {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c-content h1 {
+    font-size: 2rem;
+}
+
+.c-content h2 {
+    font-size: 1.6rem;
 }
 
 .l-content {
 
 }
 
-.c-figure-box {
+.c-magnificent-figure-box {
     display: flex;
     flex-direction: row;
-    height: 380px;
-    width: 270px;
+    margin-top: 10px;
+    justify-content: space-around;
+    /*height: 380px;*/
+    /*width: 270px;*/
 }
 
-img {
-    width: 380px;
+.c-figure {
+    background: rgba(0,0,0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
 }
 
-.c-birdy-portrait {
+.c-figcaption {
+    font-style: italic;
+    text-align: right;
+}
+
+.h-wrap-centre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.c-img {
+    border-radius: 4px;
+}
+
+.c-img-coconut-nut {
+    height: 600px;
+}
+.c-img-detestable-bird {
+    width: 600px;
+}
+
+.c-img-tasty-bird {
+    width: 600px;
+}
+
+.c-img-birdy-portrait {
     height: 380px;
     width: 270px;
 }
